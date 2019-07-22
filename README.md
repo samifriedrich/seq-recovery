@@ -16,7 +16,7 @@ Please be sure the following are already installed in your python environment:
 ### Input files
 - ENS_key.txt - a text file linking HGNC gene names to zebra finch and chicken gene models
 - alignments-to-taeGut1.psl - a psl file containing alignments of chicken and zebra finch Ensembl gene models to taeGut1 generated using the [UCSC Genome Browser Blat](https://genome.ucsc.edu/index.html)
-- gene_to_transcript.txt - a text file linking ENS gene to transcript
+- gene_to_transcript.txt - a text file linking Ensembl gene ID's to Ensembl transcript ID's
 
 ### Output file
 - output_BED.txt - a BED track of the chicken sequence blocks that aligned in taeGut1 and did not overlap any of the corresponding zebra finch model(s)
