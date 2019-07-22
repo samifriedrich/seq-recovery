@@ -4,7 +4,7 @@ This script was written to compare alignments of zebra finch and chicken [Ensemb
 The project in this repository was designed to analyze zebra finch ion channel gene models in [Friedrich et al. 2019 BMC Genomics](), and a more detailed description of this analysis can be found in the **Methods** section of this publication under the subheading "Assessing gene model completeness and expanding gene models with additional sequence".
 
 ## Getting started
-Script (sequence_recovery.py) and input files should be placed in the same folder when running this code. The output file (output_BED.txt) is what should be produced.
+Script (sequence_recovery.py) and input files should be placed in the same folder when running this code. The output file (output_BED.txt) is what should be produced after running.
 
 ### Python library prerequisites
 Please be sure the following are already installed in your python environment:
