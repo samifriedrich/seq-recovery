@@ -1,5 +1,5 @@
 # seq-recovery
-This script compares alignments of zebra finch and chicken [Ensembl](http://www.ensembl.org) gene models to the zebra finch assembly [taeGut1](https://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut1) with the goal of recovering sequence that may be missing from zebra finch gene predictions (i.e. aligned chicken sequence blocks that do not overlap with any of the corresponding zebra finch model).
+This script compares alignments of zebra finch and chicken [Ensembl](http://www.ensembl.org) gene models to the zebra finch (*Taeniopygia guttata*) genome assembly [taeGut1](https://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut1) with the goal of recovering sequence that may be missing from zebra finch gene predictions (i.e. aligned chicken sequence blocks that do not overlap with any of the corresponding zebra finch model).
 
 The project in this repository was designed to analyze zebra finch ion channel gene models in Friedrich et al. 2019 BMC Genomics, and a more detailed description of the data and analysis can be found in the **Methods** section of this publication under the subheading "Assessing gene model completeness and expanding gene models with additional sequence".
 
