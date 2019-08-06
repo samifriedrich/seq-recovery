@@ -26,7 +26,7 @@ Please be sure the following are already installed in your python environment:
 - output_BED.txt - a BED track of the chicken sequence blocks that aligned in taeGut1 and did not overlap any of the corresponding zebra finch model(s)
 
 ## Author
- - Sami Friedrich, PhD candidate at Oregon Health and Science University
+ - Sami Friedrich, PhD candidate at Oregon Health and Science University [LinkedIn](https://www.linkedin.com/in/sami-friedrich/)
  
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/samifriedrich/seq-recovery/blob/master/sequence_recovery.py) file for details.
