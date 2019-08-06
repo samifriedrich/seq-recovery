@@ -11,7 +11,7 @@ The product of this script is a text file in [BED format](https://genome.ucsc.ed
 Script (sequence_recovery.py) and input files should be placed in the same folder when running this code. The output file (output_BED.txt) is what should be produced after running.
 
 ### Python library prerequisites
-Please be sure the following are already installed in your python environment:
+Please be sure the following are installed in your python environment:
 - os
 - subprocess
 - pandas
