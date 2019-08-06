@@ -7,8 +7,6 @@ After finding that many zebra finch gene models were incomplete relative to othe
 
 The product of this script is a text file in [BED format](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) which allows for visualization using UCSC's [taeGut1](https://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut1) Genome Browser.
 
-![Alt Text](https://static-content.springer.com/esm/art%3A10.1186%2Fs12864-019-5871-2/MediaObjects/12864_2019_5871_MOESM5_ESM.pdf)
-
 ## Getting started
 Script (sequence_recovery.py) and input files should be placed in the same folder when running this code. The output file (output_BED.txt) is what should be produced after running.
 
