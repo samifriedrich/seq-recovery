@@ -1,5 +1,8 @@
 # sequence_recovery.py
-This script compares transcript sequence alignments of zebra finch and chicken [Ensembl](http://www.ensembl.org) gene models to the zebra finch (*Taeniopygia guttata*) genome assembly [taeGut1](https://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut1). After finding that many zebra finch gene models were incomplete relative to other species including chicken, our goal was to use alignments of chicken gene models to identify sequence that may be missing from current zebra finch gene models. 
+This script compares transcript sequence alignments of orthologous zebra finch and chicken [Ensembl](http://www.ensembl.org) gene models to the zebra finch (*Taeniopygia guttata*) genome assembly [taeGut1](https://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut1). 
+
+After finding that many zebra finch gene models were incomplete relative to other species including chicken, our goal was to use alignments of chicken models to the zebra finch genome to identify sequence that may be missing from current zebra finch gene models. This script produces a text file in [BED format](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) which allows for visualization of sequence regions predicted in chicken but not zebra finch using UCSC's [taeGut1](https://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut1) Genome Browser.
+
 
 The project in this repository was specifically designed to analyze the zebra finch ion channel genes assessed in [Friedrich et al. 2019 BMC Genomics](https://doi.org/10.1186/s12864-019-5871-2). This publication is publically available and a detailed description of the data curation and analysis pipeline can be found in the **Methods** section under the subheading "**Assessing gene model completeness and expanding gene models with additional sequence**".
 
